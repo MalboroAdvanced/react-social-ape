@@ -24,7 +24,7 @@ import axios from 'axios';
 const theme = createMuiTheme(themeObject);
 
 axios.defaults.baseURL =
-  ' https://us-central1-netflix-clone-brij-2fd86.cloudfunctions.net/api';
+  'https://europe-west1-netflix-clone-brij-2fd86.cloudfunctions.net/api';
 
 const token = localStorage.FBIdToken;
 if (token) {
